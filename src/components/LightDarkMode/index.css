@@ -1,0 +1,39 @@
+/* src/components/LightDarkMode/index.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  text-align: center;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-toggle {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.theme-toggle:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
